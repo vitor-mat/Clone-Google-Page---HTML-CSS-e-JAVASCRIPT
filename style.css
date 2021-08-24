@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+header {
+  font-size: 13px;
+  width: 100%;
+  height: 6.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 5px 0 0;
+}
+
+header #menu-dots {
+  width: 16px;
+  height: 16px;
+  margin: 8px;
+}
+
+header #user-image {
+  width: 32px;
+  height: 32px;
+}
+
+header div {
+  width: 350px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div span {
+  margin-right: 15px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div span a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+
+header div span a:hover {
+  text-decoration: underline;
+}
+
+header div #btn-login {
+  width: 120px;
+  height: 36px;
+  padding: 9px 23px;
+  margin: 0 10px 0 0px;
+  cursor: pointer;
+  color: white;
+  background-color: #1a73e8;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+header div #menu-dots-span:hover {
+  border-radius: 50%;
+  background-color: #e7e7e7;
+}
+
+main {
+  height: 83vh;
+  width: 100%;
+}
+
+main #logo-div {
+  width: 100%;
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main #logo-div #logo {
+  width: 272px;
+  height: 92px;
+}
+
+main form {
+  width: 100%;
+  height: 160px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main form #input-text-div {
+  width: 100%;
+  height: 44px;
+  max-width: 580px;
+  min-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.5px solid rgba(158, 158, 158, 0.315);
+  border-radius: 24px;
+  padding: 10px;
+}
+
+main form #input-text-div #lupa {
+  width: 20px;
+  height: 20px;
+  fill: gray;
+}
+
+main form #input-text-div input {
+  width: 85%;
+  height: 34px;
+  margin: 0 8px;
+  border: none;
+  background-color: white;
+}
+
+main form #input-text-div #keyboard, main form #input-text-div #mic {
+  width: 24px;
+  height: 24px;
+}
+
+main form #input-text-div #keyboard {
+  margin: 0 8px;
+}
+
+main form #input-text-div:hover {
+  -webkit-box-shadow: 0px 1px 0px 1px #e7e6e6;
+          box-shadow: 0px 1px 0px 1px #e7e6e6;
+}
+
+main form #btns-div {
+  width: 100%;
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 18px;
+}
+
+main form #btns-div input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+main form #btns-div input:hover {
+  border: 1px solid #d8d7d7;
+}
+
+main #avaliable-div {
+  width: 100%;
+  height: 365px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #avaliable-div span {
+  font-size: 14px;
+}
+
+main #avaliable-div a {
+  text-decoration: none;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+}
+
+footer #brazil-div {
+  width: 100%;
+  height: 48px;
+}
+
+footer #brazil-div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 30px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+footer #list-div {
+  width: 100%;
+  height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+}
+
+footer #list-div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer #list-div ul li {
+  list-style: none;
+  margin: 0 14px;
+}
+
+footer #list-div ul li a {
+  text-decoration: none;
+  color: #70757a;
+}
+
+@media (max-width: 1150px) {
+  footer #list-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    height: 78.5vh;
+  }
+  footer {
+    height: 13vh;
+  }
+  footer #list-div {
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
